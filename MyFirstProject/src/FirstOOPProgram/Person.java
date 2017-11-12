@@ -32,6 +32,10 @@ class Person {
         this.height = printer.nextLine();
     }
 
+    /**
+     * A function to display the contents of object
+     * returns void
+     */
     void display() {
         System.out.println("My name is: \t " + this.name);
         System.out.println("My age is:  \t " + this.age);
